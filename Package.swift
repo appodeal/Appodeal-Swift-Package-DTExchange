@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM", exact: "8.4.7"),
+        .package(url: "https://github.com/inner-active/DTExchangeSDK-iOS-SPM", exact: "8.5.2"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealDTExchangeAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealDTExchangeAdapter/8.4.7.1/9c93d29aa2e1/AppodealDTExchangeAdapter.xcframework.zip",
-            checksum: "9c93d29aa2e1a7deab2ae19ede156da20217e5e2bae10501857a8305545378a4"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealDTExchangeAdapter/8.5.2.0/ab5ca1782415/AppodealDTExchangeAdapter.xcframework.zip",
+            checksum: "ab5ca1782415fe3ca501d7072e7f2d8a504858e8756c408a2da57a46cfe4d1f8"
         ),
 
     ]
